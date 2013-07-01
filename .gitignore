@@ -1,0 +1,19 @@
+#This Is The Ignore file. 
+#You can list files by name (on their own line), extension or directories that you do not want to be tracked in your repository.
+#Comments in ignore files start with # and are one line
+#Example- Ignore Hidden System Files: .DS_Store "Ignore any hidden .DS_Store Files"
+#Example- Ignore A Kind of File: *.css "Ignore all files ending with a .css extension"
+#Example- Ignore A directory: bin/ "Ignore all bin directories"
+#Example- Ignore A directory relative to the root path: rootFolder/subFolder/subFolder2/ "Ignore the subFolder2 directory"
+#Example- Ignore a specific file: aFile.txt "Ignore the aFile.txt"
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
