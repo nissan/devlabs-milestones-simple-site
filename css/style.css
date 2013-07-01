@@ -92,6 +92,14 @@ h5{
 h6{
 	font-size: .75em
 }
+a,a:active{
+	color: #848484;
+	text-decoration: none;
+}
+a:hover,a:visited{
+	color: #f04500;
+	text-decoration: none;
+}
 /** Structure
 ---------------------------------------------------------------------------------*/
 #body-container{
@@ -138,8 +146,23 @@ footer{
 }
 /** Navigation
 ---------------------------------------------------------------------------------*/
-
-
+header{
+	overflow: hidden;
+}
+header img{
+	float: left;
+	width: 100px;
+}
+#main-navigation{
+	display: inline-block;
+	float: right;
+	margin-right: 20px
+}
+.main-nav-item{
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 20px;
+}
 /** Main Content
 ---------------------------------------------------------------------------------*/
 
